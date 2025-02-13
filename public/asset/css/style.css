@@ -195,7 +195,7 @@ body {
     top: 50%;
     z-index: 1;
     border-radius: 50%;
-    background-image: url(../img/avatar.png);
+    background-image: url(./img/avatar.png);
     background-size: 77%;
     background-position: 45px 15px;
     background-repeat: no-repeat;
@@ -534,7 +534,7 @@ footer .bg {
     width: 100%;
     position: absolute;
     height: calc(100% - 1px);
-    background: url('../asset/img/footer-bg.png') no-repeat;
+    background: url('./asset/img/footer-bg.png') no-repeat;
     background-size: cover;
     background: #262626;
 }
