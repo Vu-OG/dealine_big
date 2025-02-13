@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__logo">
+            <h1 onclick="window.location.href='index.html'" class="logo__text text_gradient_default arialFont">
+                Jet Son
+            </h1>
+        </div>
+        <ul class="header__nav">
+            <li><a href="#skill">Skill</a></li>
+            <li><a href="#projects">Project</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#aboutMe">About me</a></li>
+        </ul>
+        <div class="menu-btn">
+            <div class="menu-btn__burger"></div>
+            <div class="menu-btn__burger"></div>
+            <div class="menu-btn__burger"></div>
+        </div>
+        <div class="header-actions">
+            <div class="bg1"></div>
+            <div class="bg2"></div>
+            <button class="header-actions__btn arialFont">
+                Contact
+                <div>
+                    <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.2552 5.95761L4.55599 0.255978C3.97588 0.0319927 3.32085 -0.0477476 2.68019 0.027629C2.03954 0.103006 1.44444 0.329831 0.976029 0.677179C0.507621 1.02453 0.1887 1.47549 0.0627484 1.96859C-0.0632028 2.4617 0.00994526 2.97293 0.27222 3.4326L2.79208 7.80657C2.84926 7.91232 2.87871 8.02585 2.87871 8.14052C2.87871 8.2552 2.84926 8.36873 2.79208 8.47448L0.27222 12.8484C0.0587663 13.2204 -0.0314704 13.6279 0.00970981 14.0339C0.05089 14.4398 0.222182 14.8313 0.508018 15.1728C0.793854 15.5144 1.18517 15.7951 1.64641 15.9894C2.10765 16.1838 2.62418 16.2856 3.14906 16.2857C3.64068 16.2819 4.12497 16.1929 4.56649 16.0251L19.2657 10.3234C19.7871 10.12 20.2254 9.80809 20.5316 9.42264C20.8378 9.03719 21 8.59331 21 8.14052C21 7.68774 20.8378 7.24386 20.5316 6.85841C20.2254 6.47295 19.7871 6.16109 19.2657 5.95761H19.2552ZM18.3207 8.86545L3.62154 14.5671C3.42852 14.639 3.21178 14.6634 3.00038 14.637C2.78898 14.6106 2.59302 14.5347 2.43879 14.4195C2.28456 14.3043 2.17942 14.1553 2.13748 13.9924C2.09553 13.8295 2.11878 13.6605 2.20411 13.5082L4.71348 9.13424C4.74596 9.07583 4.77401 9.016 4.79747 8.95504H12.0316C12.31 8.95504 12.5771 8.86923 12.774 8.71648C12.9709 8.56372 13.0815 8.35655 13.0815 8.14052C13.0815 7.9245 12.9709 7.71732 12.774 7.56457C12.5771 7.41182 12.31 7.326 12.0316 7.326H4.79747C4.77401 7.26505 4.74596 7.20522 4.71348 7.14681L2.20411 2.77284C2.11878 2.6205 2.09553 2.45155 2.13748 2.28867C2.17942 2.12578 2.28456 1.97673 2.43879 1.86152C2.59302 1.7463 2.78898 1.67042 3.00038 1.64404C3.21178 1.61767 3.42852 1.64207 3.62154 1.71397L18.3207 7.4156C18.4927 7.48395 18.6371 7.5878 18.7378 7.71571C18.8386 7.84361 18.892 7.99061 18.892 8.14052C18.892 8.29043 18.8386 8.43744 18.7378 8.56534C18.6371 8.69325 18.4927 8.79709 18.3207 8.86545Z"
+                            fill="#2b2b2b" />
+                    </svg>
+                    <svg width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M19.2552 5.95761L4.55599 0.255978C3.97588 0.0319927 3.32085 -0.0477476 2.68019 0.027629C2.03954 0.103006 1.44444 0.329831 0.976029 0.677179C0.507621 1.02453 0.1887 1.47549 0.0627484 1.96859C-0.0632028 2.4617 0.00994526 2.97293 0.27222 3.4326L2.79208 7.80657C2.84926 7.91232 2.87871 8.02585 2.87871 8.14052C2.87871 8.2552 2.84926 8.36873 2.79208 8.47448L0.27222 12.8484C0.0587663 13.2204 -0.0314704 13.6279 0.00970981 14.0339C0.05089 14.4398 0.222182 14.8313 0.508018 15.1728C0.793854 15.5144 1.18517 15.7951 1.64641 15.9894C2.10765 16.1838 2.62418 16.2856 3.14906 16.2857C3.64068 16.2819 4.12497 16.1929 4.56649 16.0251L19.2657 10.3234C19.7871 10.12 20.2254 9.80809 20.5316 9.42264C20.8378 9.03719 21 8.59331 21 8.14052C21 7.68774 20.8378 7.24386 20.5316 6.85841C20.2254 6.47295 19.7871 6.16109 19.2657 5.95761H19.2552ZM18.3207 8.86545L3.62154 14.5671C3.42852 14.639 3.21178 14.6634 3.00038 14.637C2.78898 14.6106 2.59302 14.5347 2.43879 14.4195C2.28456 14.3043 2.17942 14.1553 2.13748 13.9924C2.09553 13.8295 2.11878 13.6605 2.20411 13.5082L4.71348 9.13424C4.74596 9.07583 4.77401 9.016 4.79747 8.95504H12.0316C12.31 8.95504 12.5771 8.86923 12.774 8.71648C12.9709 8.56372 13.0815 8.35655 13.0815 8.14052C13.0815 7.9245 12.9709 7.71732 12.774 7.56457C12.5771 7.41182 12.31 7.326 12.0316 7.326H4.79747C4.77401 7.26505 4.74596 7.20522 4.71348 7.14681L2.20411 2.77284C2.11878 2.6205 2.09553 2.45155 2.13748 2.28867C2.17942 2.12578 2.28456 1.97673 2.43879 1.86152C2.59302 1.7463 2.78898 1.67042 3.00038 1.64404C3.21178 1.61767 3.42852 1.64207 3.62154 1.71397L18.3207 7.4156C18.4927 7.48395 18.6371 7.5878 18.7378 7.71571C18.8386 7.84361 18.892 7.99061 18.892 8.14052C18.892 8.29043 18.8386 8.43744 18.7378 8.56534C18.6371 8.69325 18.4927 8.79709 18.3207 8.86545Z"
+                            fill="url(#paint0_linear_114_38)" />
+                        <defs>
+                            <linearGradient id="paint0_linear_114_38" x1="0" y1="8.14286" x2="21" y2="8.14286"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#00F7FF" />
+                                <stop offset="1" stop-color="#0091FF" />
+                            </linearGradient>
+                        </defs>
+                    </svg>
+                </div>
+            </button>
+        </div>
+        <div class="header--border"></div>
+    </header>
+    <div class="container">
+        <div class="hero-section">
+            <div class="avatar">
+                <div class="avatar__img">
+                </div>
+                <div class="bg"></div>
+                <div class="bg2"></div>
+            </div>
+            <div class="hero-section__content">
+                <h1 class="hero-section__content__title arialFont">
+                    Hi, I'm <span>Programer</span> <br>
+                    <span>Jet Son Nguyễn</span>
+                </h1>
+                <h1>
+                    Jet Son Nguyễn
+                </h1>
+                <h2>
+                    Hi i'am <span>Hi i'am Programer | 10+ Years Experience</span>
+                </h2>
+                <h3>Contact : <a href="https://www.facebook.com/messages/e2ee/t/nguyenminhvusc/">Click here</a></h3>
+                <p class="hero-section__content__description arialFont">
+                    A Full-Stack Developer with over 10 years of experience, specializing in the development and
+                    optimization of web and mobile applications. Proficient in technologies such as JavaScript (React,
+                    Node.js), Python, and cloud platforms like AWS and Google Cloud. Experienced in managing and leading
+                    teams, with a strong focus on performance, security, and product quality. In addition to
+                    professional work, actively participates in the tech community and continuously learns about
+                    emerging trends like AI and Machine Learning.
+                </p>
+                <div class="header-actions">
+                    <div class="bg1"></div>
+                    <div class="bg2"></div>
+                    <button class="header-actions__btn arialFont">
+                        Contact
+                        <div>
+                            <svg width="37" height="29" viewBox="0 0 21 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.2552 5.95761L4.55599 0.255978C3.97588 0.0319927 3.32085 -0.0477476 2.68019 0.027629C2.03954 0.103006 1.44444 0.329831 0.976029 0.677179C0.507621 1.02453 0.1887 1.47549 0.0627484 1.96859C-0.0632028 2.4617 0.00994526 2.97293 0.27222 3.4326L2.79208 7.80657C2.84926 7.91232 2.87871 8.02585 2.87871 8.14052C2.87871 8.2552 2.84926 8.36873 2.79208 8.47448L0.27222 12.8484C0.0587663 13.2204 -0.0314704 13.6279 0.00970981 14.0339C0.05089 14.4398 0.222182 14.8313 0.508018 15.1728C0.793854 15.5144 1.18517 15.7951 1.64641 15.9894C2.10765 16.1838 2.62418 16.2856 3.14906 16.2857C3.64068 16.2819 4.12497 16.1929 4.56649 16.0251L19.2657 10.3234C19.7871 10.12 20.2254 9.80809 20.5316 9.42264C20.8378 9.03719 21 8.59331 21 8.14052C21 7.68774 20.8378 7.24386 20.5316 6.85841C20.2254 6.47295 19.7871 6.16109 19.2657 5.95761H19.2552ZM18.3207 8.86545L3.62154 14.5671C3.42852 14.639 3.21178 14.6634 3.00038 14.637C2.78898 14.6106 2.59302 14.5347 2.43879 14.4195C2.28456 14.3043 2.17942 14.1553 2.13748 13.9924C2.09553 13.8295 2.11878 13.6605 2.20411 13.5082L4.71348 9.13424C4.74596 9.07583 4.77401 9.016 4.79747 8.95504H12.0316C12.31 8.95504 12.5771 8.86923 12.774 8.71648C12.9709 8.56372 13.0815 8.35655 13.0815 8.14052C13.0815 7.9245 12.9709 7.71732 12.774 7.56457C12.5771 7.41182 12.31 7.326 12.0316 7.326H4.79747C4.77401 7.26505 4.74596 7.20522 4.71348 7.14681L2.20411 2.77284C2.11878 2.6205 2.09553 2.45155 2.13748 2.28867C2.17942 2.12578 2.28456 1.97673 2.43879 1.86152C2.59302 1.7463 2.78898 1.67042 3.00038 1.64404C3.21178 1.61767 3.42852 1.64207 3.62154 1.71397L18.3207 7.4156C18.4927 7.48395 18.6371 7.5878 18.7378 7.71571C18.8386 7.84361 18.892 7.99061 18.892 8.14052C18.892 8.29043 18.8386 8.43744 18.7378 8.56534C18.6371 8.69325 18.4927 8.79709 18.3207 8.86545Z"
+                                    fill="#2b2b2b" />
+                            </svg>
+                            <svg width="37" height="29" viewBox="0 0 21 17" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.2552 5.95761L4.55599 0.255978C3.97588 0.0319927 3.32085 -0.0477476 2.68019 0.027629C2.03954 0.103006 1.44444 0.329831 0.976029 0.677179C0.507621 1.02453 0.1887 1.47549 0.0627484 1.96859C-0.0632028 2.4617 0.00994526 2.97293 0.27222 3.4326L2.79208 7.80657C2.84926 7.91232 2.87871 8.02585 2.87871 8.14052C2.87871 8.2552 2.84926 8.36873 2.79208 8.47448L0.27222 12.8484C0.0587663 13.2204 -0.0314704 13.6279 0.00970981 14.0339C0.05089 14.4398 0.222182 14.8313 0.508018 15.1728C0.793854 15.5144 1.18517 15.7951 1.64641 15.9894C2.10765 16.1838 2.62418 16.2856 3.14906 16.2857C3.64068 16.2819 4.12497 16.1929 4.56649 16.0251L19.2657 10.3234C19.7871 10.12 20.2254 9.80809 20.5316 9.42264C20.8378 9.03719 21 8.59331 21 8.14052C21 7.68774 20.8378 7.24386 20.5316 6.85841C20.2254 6.47295 19.7871 6.16109 19.2657 5.95761H19.2552ZM18.3207 8.86545L3.62154 14.5671C3.42852 14.639 3.21178 14.6634 3.00038 14.637C2.78898 14.6106 2.59302 14.5347 2.43879 14.4195C2.28456 14.3043 2.17942 14.1553 2.13748 13.9924C2.09553 13.8295 2.11878 13.6605 2.20411 13.5082L4.71348 9.13424C4.74596 9.07583 4.77401 9.016 4.79747 8.95504H12.0316C12.31 8.95504 12.5771 8.86923 12.774 8.71648C12.9709 8.56372 13.0815 8.35655 13.0815 8.14052C13.0815 7.9245 12.9709 7.71732 12.774 7.56457C12.5771 7.41182 12.31 7.326 12.0316 7.326H4.79747C4.77401 7.26505 4.74596 7.20522 4.71348 7.14681L2.20411 2.77284C2.11878 2.6205 2.09553 2.45155 2.13748 2.28867C2.17942 2.12578 2.28456 1.97673 2.43879 1.86152C2.59302 1.7463 2.78898 1.67042 3.00038 1.64404C3.21178 1.61767 3.42852 1.64207 3.62154 1.71397L18.3207 7.4156C18.4927 7.48395 18.6371 7.5878 18.7378 7.71571C18.8386 7.84361 18.892 7.99061 18.892 8.14052C18.892 8.29043 18.8386 8.43744 18.7378 8.56534C18.6371 8.69325 18.4927 8.79709 18.3207 8.86545Z"
+                                    fill="url(#paint0_linear_114_38)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear_114_38" x1="0" y1="8.14286" x2="21" y2="8.14286"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#00F7FF" />
+                                        <stop offset="1" stop-color="#0091FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </div>
+                    </button>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+        <div id="aboutMe" class="about-me">
+            <div class="title">
+                <h1>About me</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="content">
+                <p>I am a passionate and experienced Full-Stack Developer with over 10 years of experience in building,
+                    optimizing, and maintaining web and mobile applications. My journey in tech began with a deep
+                    fascination for problem-solving and a love for coding, which has driven me to work with cutting-edge
+                    technologies like JavaScript (React, Node.js), Python, and cloud platforms such as AWS and Google
+                    Cloud.</p>
+                <p>Throughout my career, I've had the opportunity to lead and collaborate with talented teams to deliver
+                    high-quality software solutions that meet both business needs and user expectations. I take pride in
+                    writing clean, efficient code and continuously strive to improve the performance, security, and
+                    scalability of the applications I work on.</p>
+                <p>In addition to my technical expertise, I am also deeply invested in mentoring junior developers and
+                    sharing knowledge within the tech community. I am constantly learning, exploring new technologies,
+                    and staying updated on trends like AI, Machine Learning, and DevOps to push the boundaries of what
+                    we can achieve with software.</p>
+                <p>Outside of work, I enjoy engaging in tech meetups, participating in hackathons, and working on
+                    personal projects that challenge my skills and creativity.</p>
+            </div>
+            <div class="content-mobile">
+                A passionate developer with over 10 years of experience in building web and mobile applications.
+                Expertise in JavaScript (React, Node.js), Python, and cloud platforms like AWS and Google Cloud.
+                Committed to creating high-performance, scalable solutions while mentoring junior developers and staying
+                updated with emerging technologies.
+            </div>
+        </div>
+        <div id="skill" class="skill">
+            <div class="title">
+                <h1>Skills</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="bottom">
+                <div class="content">
+                    🖥️ ️Programming Languages: I am proficient in a range of programming languages, including
+                    JavaScript (React, Node.js), Python, Ruby, Java, TypeScript, and have extensive experience working
+                    with both SQL and NoSQL databases, allowing me to develop scalable and efficient solutions. <br><br>
+
+                    ⚙️ Technologies & Frameworks: I have hands-on experience with modern frameworks and technologies
+                    such as React, Angular, Vue.js, Express.js, Django, Flask, Spring Boot, and GraphQL. This enables me
+                    to build high-performance applications that are both user-friendly and scalable. <br><br>
+
+                    ☁️ Cloud Platforms & DevOps: I am skilled in working with cloud platforms such as AWS (EC2, Lambda,
+                    S3, RDS) and Google Cloud, as well as DevOps tools like Docker, Kubernetes, and CI/CD pipelines. I
+                    have expertise in automating deployments and managing infrastructure, ensuring smooth and efficient
+                    delivery of applications. <br><br>
+
+                    👥 Soft Skills & Leadership: In addition to my technical skills, I possess strong leadership
+                    abilities. I have experience in Project Management, Team Leadership, and Agile & Scrum
+                    methodologies. I also prioritize Mentoring junior developers and fostering a collaborative work
+                    environment, where team communication and problem-solving are key to success.
+                </div>
+                <div class="images">
+                    <div class="bg"></div>
+                    <div class="border"></div>
+                    <div class="img">
+                        <img src="../asset/img/anh2.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="content-mobile">
+                <div class="list">
+                    <div class="item">
+                        <div class="bg"></div>
+                        <h1>Programming Languages</h1>
+                        <p>JavaScript, Python, Ruby, Java, TypeScript, SQL/NoSQL</p>
+                    </div>
+                    <div class="item">
+                        <div class="bg"></div>
+                        <h1>Programming Languages</h1>
+                        <p>JavaScript, Python, Ruby, Java, TypeScript, SQL/NoSQL</p>
+                    </div>
+                    <div class="item">
+                        <div class="bg"></div>
+                        <h1>Programming Languages</h1>
+                        <p>JavaScript, Python, Ruby, Java, TypeScript, SQL/NoSQL</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div id="projects" class="projects">
+                <div class="title">
+                    <h1>Projects</h1>
+                    <div class="underline"></div>
+                </div>
+                <div class="list">
+                    <div class="bg"></div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../asset/img/item1.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p>Description: Chartbrew is an open-source web platform that helps developers easily create
+                                interactive charts and dashboards using data from various sources like databases and
+                                APIs.
+                                <br><br>
+                                Tech Stack: React, Node.js, GraphQL, MongoDB
+                                <br><br>
+                                Features: Custom chart creation, API integrations, real-time data updates,
+                                multi-database
+                                support.
+                                <br><br>
+                                GitHub Link: Chartbrew GitHub
+                                <br><br>
+                                Demo Link: Chartbrew Demo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../asset/img/item2.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p>Description: Gitter is a community chat platform built for developers, enabling real-time
+                                communication in different programming communities. It's ideal for team collaboration or
+                                public discussions on open-source projects.
+                                <br><br>
+                                Tech Stack: Node.js, MongoDB, WebSockets
+                                <br><br>
+                                Features: Group chat, private messaging, team collaboration tools, open-source
+                                discussions.
+                                <br><br>
+                                GitHub Link: Gitter GitHub
+                                <br><br>
+                                Demo Link: Gitter Demo
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../asset/img/item3.png" alt="">
+                        </div>
+                        <div class="content">
+                            <p>Description: Gladys is a privacy-first, open-source home assistant that automates your
+                                home
+                                by integrating with a variety of IoT devices. It allows users to control lights,
+                                security
+                                cameras, and more via a centralized platform.
+                                <br><br>
+                                Tech Stack: Node.js, Vue.js, MQTT, WebSocket
+                                <br><br>
+                                Features: Home automation, device control, multi-platform support, privacy-first
+                                approach.
+                                <br><br>
+                                GitHub Link: Gladys Assistant GitHub
+                                <br><br>
+                                Demo Link: Gladys Demo
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="content-mobile">
+                    <div class="list">
+                        <div class="item">
+                            <div class="bg"></div>
+                            <h1>Charibrew</h1>
+                            <p>Open-source web platform for creating interactive charts and dashboards.</p>
+                            <div class="buttons">
+                                <button>React<div class="bg"></div></button>
+                                <button>Node.js<div class="bg"></div></button>
+                                <button>GraphQL<div class="bg"></div></button>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="bg"></div>
+                            <h1>VENIQA</h1>
+                            <p>Community chat platform for developers with real-time communication.</p>
+                            <div class="buttons">
+                                <button>Node.js
+                                    <div class="bg"></div>
+                                </button>
+                                <button>WebSockets<div class="bg"></div></button>
+                                <button>MongoDB<div class="bg"></div></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="courses" class="Courses">
+            <div class="title">
+                <h1>Courses / Certifications</h1>
+                <div class="underline"></div>
+            </div>
+            <div class="list">
+                <div class="bg"></div>
+                <div class="div">
+                    <div class="item">
+                        <img src="../asset/img/item 1.jpg" alt="">
+                        <h1>HTML & CSS for Beginners</h1>
+                        <p>Description: Learn the fundamentals of HTML and CSS to build visually appealing and
+                            responsive web pages. </p>
+                    </div>
+                    <div class="item">
+                        <img src="../asset/img/item 2.jpg" alt="">
+                        <h1>JavaScript for Beginners</h1>
+                        <p>Description: A beginner-friendly course to understand JavaScript syntax, functions, and DOM
+                            mani...</p>
+                    </div>
+                    <div class="item">
+                        <img src="../asset/img/item 3.jpg" alt="">
+                        <h1>Advanced JavaScript</h1>
+                        <p>Description: A beginner-friendly course to understand JavaScript syntax, functions, and DOM
+                            mani...</p>
+                    </div>
+                    <div class="item">
+                        <img src="../asset/img/item 4.jpg" alt="">
+                        <h1>React.js - The Comp...</h1>
+                        <p>Learn how to build modern web applications using React, including hooks, state management,
+                            and m...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-mobile">
+                <a href="">HTML & CSS for Beginners</a>
+                <a href="">JavaScript Fundamentals</a>
+                <a href=""> React JS Masterclass</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="bg"></div>
+        <div class="footer-content">
+            <h1>Let’s Connect!</h1>
+            <p>I’m always open to new opportunities, collaborations, and ideas. If you have any questions or just want
+                to
+                chat, feel free to reach out!</p>
+            <svg width="374" height="57" viewBox="0 0 374 57" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M50 32.0627C50 18.2281 38.8 7 25 7C11.2 7 0 18.2281 0 32.0627C0 44.193 8.6 54.2932 20 56.6241V39.5815H15V32.0627H20V25.797C20 20.9599 23.925 17.0251 28.75 17.0251H35V24.5439H30C28.625 24.5439 27.5 25.6717 27.5 27.0501V32.0627H35V39.5815H27.5V57C40.125 55.7469 50 45.0702 50 32.0627Z"
+                    fill="white" />
+                <path
+                    d="M164.714 20.0505C166.838 15.8265 170.094 12.2757 174.119 9.79456C178.145 7.31344 182.781 5.99968 187.51 6C194.385 6 200.161 8.52705 204.577 12.6427L197.263 19.9562C194.617 17.4291 191.255 16.1414 187.51 16.1414C180.865 16.1414 175.24 20.6294 173.237 26.655C172.727 28.185 172.436 29.817 172.436 31.5C172.436 33.183 172.727 34.815 173.237 36.345C175.242 42.3732 180.865 46.8587 187.51 46.8587C190.941 46.8587 193.862 45.9534 196.148 44.4234C197.473 43.5513 198.607 42.4197 199.483 41.0969C200.358 39.7742 200.956 38.2877 201.24 36.7275H187.51V26.8641H211.536C211.837 28.5318 212 30.2709 212 32.0788C212 39.8461 209.219 46.3843 204.393 50.8214C200.173 54.7178 194.398 57 187.51 57C184.16 57.0013 180.842 56.3427 177.746 55.0617C174.651 53.7806 171.838 51.9024 169.469 49.5342C167.1 47.1661 165.221 44.3544 163.939 41.26C162.658 38.1656 161.999 34.8491 162 31.5C162 27.3843 162.985 23.493 164.714 20.0505Z"
+                    fill="white" />
+                <path
+                    d="M101 39L113.975 31.5L101 24V39ZM129.9 19.425C130.225 20.6 130.45 22.175 130.6 24.175C130.775 26.175 130.85 27.9 130.85 29.4L131 31.5C131 36.975 130.6 41 129.9 43.575C129.275 45.825 127.825 47.275 125.575 47.9C124.4 48.225 122.25 48.45 118.95 48.6C115.7 48.775 112.725 48.85 109.975 48.85L106 49C95.525 49 89 48.6 86.425 47.9C84.175 47.275 82.725 45.825 82.1 43.575C81.775 42.4 81.55 40.825 81.4 38.825C81.225 36.825 81.15 35.1 81.15 33.6L81 31.5C81 26.025 81.4 22 82.1 19.425C82.725 17.175 84.175 15.725 86.425 15.1C87.6 14.775 89.75 14.55 93.05 14.4C96.3 14.225 99.275 14.15 102.025 14.15L106 14C116.475 14 123 14.4 125.575 15.1C127.825 15.725 129.275 17.175 129.9 19.425Z"
+                    fill="white" />
+                <path
+                    d="M293 15.8235C291.16 16.6676 289.176 17.2224 287.12 17.4876C289.224 16.2094 290.849 14.1835 291.614 11.7476C289.63 12.9535 287.431 13.7976 285.113 14.28C283.225 12.2059 280.572 11 277.56 11C271.944 11 267.355 15.6306 267.355 21.3465C267.355 22.1665 267.45 22.9624 267.618 23.71C259.109 23.2759 251.533 19.1518 246.489 12.9053C245.605 14.4247 245.103 16.2094 245.103 18.0906C245.103 21.6841 246.896 24.8676 249.668 26.6765C247.971 26.6765 246.394 26.1941 245.008 25.4706V25.5429C245.008 30.5594 248.545 34.7559 253.229 35.6965C251.726 36.1135 250.146 36.1714 248.617 35.8653C249.266 37.9213 250.537 39.7203 252.252 41.0094C253.967 42.2986 256.039 43.013 258.177 43.0524C254.553 45.9477 250.06 47.5127 245.438 47.49C244.625 47.49 243.813 47.4418 243 47.3453C247.541 50.2876 252.943 52 258.727 52C277.56 52 287.909 36.2271 287.909 22.5524C287.909 22.0941 287.909 21.66 287.885 21.2018C289.893 19.7547 291.614 17.9218 293 15.8235Z"
+                    fill="white" />
+                <path
+                    d="M363.668 8.93C361.489 6.4585 360.288 3.2851 360.288 0H350.435V39.2667C350.361 41.3921 349.458 43.4057 347.917 44.8827C346.376 46.3597 344.318 47.1846 342.176 47.1833C337.648 47.1833 333.885 43.51 333.885 38.95C333.885 33.5033 339.179 29.4183 344.631 31.0967V21.09C333.63 19.6333 324 28.12 324 38.95C324 49.495 332.801 57 342.144 57C352.157 57 360.288 48.925 360.288 38.95V19.0317C364.284 21.8812 369.081 23.41 374 23.4017V13.6167C374 13.6167 368.005 13.9017 363.668 8.93Z"
+                    fill="white" />
+            </svg>
+        </div>
+    </footer>
+    <script>
+        let openNav = false;
+        const menuBtn = document.querySelector('.menu-btn');
+        const nav = document.querySelector('.header__nav');
+        menuBtn.addEventListener('click', () => {
+            openNav = !openNav;
+            if (openNav) {
+                nav.style.right = '-100%';
+            } else {
+                nav.style.right = '0';
+            }
+        });
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener("click", function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute("href").substring(1);
+                    const targetElement = document.getElementById(targetId);
+
+                    if (targetElement) {
+                        targetElement.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start"
+                        });
+                    }
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
